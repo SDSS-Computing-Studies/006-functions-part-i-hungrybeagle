@@ -8,6 +8,6 @@ The return value is the largest value in the list
 """
 
 def largest( x ):
-  x = tuple(x)
+  x = list(x)
   x.sort()
   return x[-1]
